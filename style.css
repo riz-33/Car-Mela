@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Rubik;
+    src: url(Font/Rubik-Medium.ttf);
+}
+
+body {
+    font-family: Rubik;
+}
+
+.navbar {
+    background-color: #2B2E4A !important;
+    height: auto;
+}
+
+.navbar-brand {
+    color: #F77D0A;
+    padding-left: 50px;
+}
+.navbar-toggler-icon {
+    background-color: #F77D0A;
+}
+.navbar-collapse{
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.btn-outline-success {
+    background-color: #F77D0A;
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-outline-success:focus {
+    background-color: #F77D0A !important;
+    color: white;
+}
+
+.form-select {
+    width: 200px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250%;
+    object-fit: ;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+/* @media (max-width: 992px ){
+    .allcars{
+        margin-top: 8%;
+    }
+    
+} */
+
+/* @media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #2B2E4A;
+        margin-inline: -2%;
+        text-align: center;
+    }
+    .form-select {
+        /* justify-content: space-around; */
+        /* margin-left: 36%;
+        margin-block: 10px;
+    }
+    .allcars{
+        
+    }
+} */
