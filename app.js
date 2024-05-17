@@ -451,7 +451,7 @@ function filterCars() {
         `
     }
 
-    let navbtn = document.getElementById('navbarSupportedContent')
+    var navbtn = document.getElementById('navbarSupportedContent')
     navbtn.className = "navbar-collapse collapse none"
     
 }
