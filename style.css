@@ -16,15 +16,17 @@ body {
     color: #F77D0A;
     padding-left: 50px;
 }
+
 .navbar-toggler-icon {
     background-color: #F77D0A;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    justify-content: flex-end;
 }
 
 .btn-outline-success {
@@ -72,7 +74,7 @@ body {
     }
     .form-select {
         /* justify-content: space-around; */
-        /* margin-left: 36%;
+/* margin-left: 36%;
         margin-block: 10px;
     }
     .allcars{
