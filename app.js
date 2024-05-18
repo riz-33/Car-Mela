@@ -428,6 +428,9 @@ function onCompanyChange() {
     }
 }
 
+var hidden = document.getElementById("main")
+// hidden.className = "maincarousel none"
+
 function filterCars() {
     var carData = carVariants[company.value][brand.value].type
     var colorsDiv = "";
@@ -452,4 +455,13 @@ function filterCars() {
     }
     var navbtn = document.getElementById('navbarSupportedContent')
     navbtn.className = "navbar-collapse collapse none"
+
+    if (hidden.style.display === "none") {
+        hidden.style.display = "block";
+    }
+    else {
+        hidden.style.display = "none"
+    }
+    // document.getElementsByClassName('slide').style.visibility='hidden';
 }
+
