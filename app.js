@@ -402,13 +402,13 @@ for (var key in carVariants) {
                                         ${colorsDiv}
                                     </div>
                             </div>
-                </div class="p-2 col-3"> 
+                </div class="p-2 col-6 col-lg-3 col-md-4"> 
                     <div class="card-body"></div>
                  <div>   
-                </div class="p-2 col-3"> 
+                </div class="p-2 col-6 col-lg-3 col-md-4"> 
                      <div class="card-body"></div>
                 <div>           
-                  </div class="p-2 col-3"> 
+                  </div class="p-2 col-6 col-lg-3 col-md-4"> 
                    <div class="card-body"></div>
                    <div>   
                     </div>
@@ -429,7 +429,6 @@ function onCompanyChange() {
 }
 
 var hidden = document.getElementById("main")
-// hidden.className = "maincarousel none"
 
 function filterCars() {
     var carData = carVariants[company.value][brand.value].type
@@ -462,6 +461,5 @@ function filterCars() {
     else {
         hidden.style.display = "none"
     }
-    // document.getElementsByClassName('slide').style.visibility='hidden';
 }
 
