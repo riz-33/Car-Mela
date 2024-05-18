@@ -397,8 +397,8 @@ for (var key in carVariants) {
                             <div class="card-body">
                                 <h5 class="card-title">${carData.name}</h5>
                                 <h6 class="card-subtitle mb-2 text-body-secondary">${carData.model}</h6>
-                                <h2>${carData.price}</h2>
-                                    <div class="d-flex">
+                                <h2 class="car-price">${carData.price}</h2>
+                                    <div class="d-flex colors">
                                         ${colorsDiv}
                                     </div>
                             </div>
