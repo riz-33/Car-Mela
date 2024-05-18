@@ -15,6 +15,7 @@ body {
 .navbar-brand {
     color: #F77D0A;
     padding-left: 50px;
+    font-weight: 900 !important;
 }
 
 .navbar-toggler-icon {
@@ -46,6 +47,21 @@ body {
 
 .form-select {
     width: 200px;
+}
+
+.carousel-item>img {
+    filter: blur(5px);
+    height: 600px;
+}
+
+.carousel-caption>h1 {
+    color: #F77D0A;
+    font-weight: 900 !important;
+}
+
+.carousel-caption>h2 {
+    color: white;
+    font-weight: 600 !important;
 }
 
 .card-img-top {
