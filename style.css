@@ -18,6 +18,10 @@ body {
     font-weight: 900 !important;
 }
 
+.navbar-brand:hover {
+    color: #F77D0A !important;
+}
+
 .navbar-toggler-icon {
     background-color: #F77D0A;
 }
